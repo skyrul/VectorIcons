@@ -1,14 +1,20 @@
 import React from 'react';
 import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
-import {Icons} from './components/Icon';
+import {Icons, IIcon} from './components/Icon';
+
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.container}>
         <Text style={styles.titleText}>
-          Example of SimpleLineIcon
+          Example of Ionicon Icon
         </Text>
-        <Icons.SimpleLineIcons name="plane" size={24} color="black"  />
+        <IIcon
+          name="information-circle-outline"
+          size="extraLarge"
+          color="blue"
+        />
+        <IIcon name="bicycle" size="extraLarge" color="red" />
       </View>
     </SafeAreaView>
   );

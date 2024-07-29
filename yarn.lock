@@ -7924,6 +7924,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-ionicons@npm:^4.6.5":
+  version: 4.6.5
+  resolution: "react-native-ionicons@npm:4.6.5"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 1bdc6ed3d1ac4c7a7fdd69f3ba16f6e0654f468e8387ff8afdf3fec029a2aabe25b97933e13316c64afd0ec56bc5b218d6251a339f028cd7511a1826839aabd3
+  languageName: node
+  linkType: hard
+
 "react-native-vector-icons@npm:^10.1.0":
   version: 10.1.0
   resolution: "react-native-vector-icons@npm:10.1.0"
@@ -9360,6 +9370,7 @@ __metadata:
     prettier: 2.8.8
     react: 18.2.0
     react-native: 0.74.3
+    react-native-ionicons: ^4.6.5
     react-native-vector-icons: ^10.1.0
     react-test-renderer: 18.2.0
     typescript: 5.0.4
