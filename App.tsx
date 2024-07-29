@@ -1,22 +1,27 @@
 import React from 'react';
-import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
+import { SafeAreaView, StatusBar, StyleSheet, Text, View } from "react-native";
 import {Icons, IIcon} from './components/Icon';
+import {MaterialIcon} from './components/Icon';
 
 const App = () => {
   return (
-    <SafeAreaView style={styles.container}>
+    <><StatusBar barStyle="dark-content" /><SafeAreaView style={styles.container}>
       <View style={styles.container}>
+        <Text>This font-weight is 'regular' </Text>
+        <Text style={styles.boldFont}>This font-weight is 'bold' </Text>
+        {/* Add icons here */}
+        <MaterialIcon size="large" color="purple" name="home" />
+        <MaterialIcon size="extraLarge" color="black" name="github" />
         <Text style={styles.titleText}>
           Example of Ionicon Icon
         </Text>
         <IIcon
           name="information-circle-outline"
           size="extraLarge"
-          color="blue"
-        />
+          color="blue" />
         <IIcon name="bicycle" size="extraLarge" color="red" />
       </View>
-    </SafeAreaView>
+    </SafeAreaView></>
   );
 };
 export default App;
@@ -34,5 +39,8 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
     paddingVertical: 20,
+  },
+  boldFont: {
+    fontFamily: 'Nunito-Bold',
   },
 });
