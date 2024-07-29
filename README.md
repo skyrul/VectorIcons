@@ -1,5 +1,7 @@
 # A small demo on using icons in react-native
 
+https://github.com/skyrul/VectorIcons/blob/52c9011150a0a61a415c121d91b1166678f2a2db/assets/Simulator%20Screenshot%20-%20iPhone%20SE%20(3rd%20generation)%20-%202024-07-29%20at%2012.04.46.png
+
 This is an app to demonstrate the use of MaterialIcons, Fontawesome, etc. in it's usage in projects. 😷
 
 Has some examples on how to implement the icons into react native apps, and this runs on both iOS and Android.
